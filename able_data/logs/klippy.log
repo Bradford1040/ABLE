@@ -1741,3 +1741,19 @@ error: failed to push some refs to 'https://github.com/Bradford1040/ABLE.git'
 
 Command {update_git_script} finished
 
+Running Command {update_git_script}...:
+[Lock] Acquired lock: /home/octo/config_backup/.script.lock
+
+[K[1;92m●[0m Checking for installed dependencies [1;92mDone![0m
+
+
+Klipper-Backup is up to date
+
+
+From https://github.com/Bradford1040/ABLE
+ * branch            devel-able -> FETCH_HEAD
+
+Already up to date.
+
+Skipping symbolic link: able_data/config/KAMP
+
