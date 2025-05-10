@@ -1636,3 +1636,67 @@ Already up to date.
 
 Skipping symbolic link: able_data/config/KAMP
 
+Skipping symbolic link: able_data/logs/mainsail-access.log
+Skipping symbolic link: able_data/logs/mainsail-error.log
+
+[devel-able 65f6aa3] klippy.log
+ 1 file changed, 72 insertions(+)
+
+remote: error: GH013: Repository rule violations found for refs/heads/devel-able.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+
+remote:      (?) This repository does not have Secret Scanning enabled, but is eligible. Enable Secret Scanning to view and manage detected secrets.        
+remote:      Visit the repository settings page, https://github.com/Bradford1040/ABLE/settings/security_analysis        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: f14a974104a313d8fb68a7e33e097e6a11aba8df        
+remote:            path: able_data/logs/klippy.log.2025-05-02:1707        
+remote:          - commit: f14a974104a313d8fb68a7e33e097e6a11aba8df        
+remote:            path: able_data/logs/klippy.log.2025-05-03:1567        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/Bradford1040/ABLE/security/secret-scanning/unblock-secret/2wvPiEM6N5mwPSJivwsxS0K3STK        
+remote:             
+remote: 
+remote: 
+
+To https://github.com/Bradford1040/ABLE.git
+ ! [remote rejected] devel-able -> devel-able (push declined due to repository rule violations)
+
+error: failed to push some refs to 'https://github.com/Bradford1040/ABLE.git'
+
+Command {update_git_script} finished
+
+webhooks client 135709646445536: Disconnected
+webhooks client 135709674522256: New connection
+webhooks client 135709674522256: Client info {'program': 'Moonraker', 'version': 'v0.9.3-74-g1c12414'}
+Running Command {update_git_script}...:
+[Lock] Acquired lock: /home/octo/config_backup/.script.lock
+
+[K[1;92m●[0m Checking for installed dependencies [1;92mDone![0m
+
+
+tput: No value for $TERM and no -T specified
+
+Klipper-Backup is up to date
+
+
+From https://github.com/Bradford1040/ABLE
+ * branch            devel-able -> FETCH_HEAD
+
+Already up to date.
+
+Skipping symbolic link: able_data/config/KAMP
+
