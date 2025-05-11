@@ -1871,3 +1871,16 @@ Already up to date.
 
 Skipping symbolic link: able_data/config/KAMP
 
+Skipping symbolic link: able_data/logs/mainsail-access.log
+Skipping symbolic link: able_data/logs/mainsail-error.log
+
+[devel-able 15ac020] klippy.log
+ 1 file changed, 58 insertions(+)
+
+To https://github.com/Bradford1040/ABLE.git
+   8421ebb..15ac020  devel-able -> devel-able
+
+branch 'devel-able' set up to track 'origin/devel-able'.
+
+Command {update_git_script} finished
+
